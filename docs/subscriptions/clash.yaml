@@ -1,4 +1,20 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE - udptoos.com
+  network: tcp
+  port: '20443'
+  reality-opts:
+    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
+    short-id: 08
+  server: 89.106.88.6
+  servername: dest1.cdn-update.rutube.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  xudp: true
 - auth: github.com/Alvin9999-newpac/fanqiang
   name: 🇳🇱NL - udptoos.com
   password: github.com/Alvin9999-newpac/fanqiang
@@ -23,57 +39,16 @@ proxies:
   type: hysteria2
   up: ''
 - name: 🇩🇪DE - udptoos.com
-  password: None
-  port: 9443
-  server: 87.249.132.97
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: '🇩🇪DE - udptoos.com #2'
-  obfs: ''
-  obfs-password: ''
-  password: f89c89df-905c-4df3-ab07-4f1a37a81005
-  port: 443
-  server: status.fastline-labs.com
-  skip-cert-verify: false
-  sni: status.fastline-labs.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: '🇳🇱NL - udptoos.com #3'
-  obfs: ''
-  obfs-password: ''
-  password: f89c89df-905c-4df3-ab07-4f1a37a81005
-  port: 443
-  server: files.fastline-labs.com
-  skip-cert-verify: false
-  sni: files.fastline-labs.com
-  type: hysteria2
-  up: ''
-- name: 🇱🇾LY - udptoos.com
-  port: 8520
-  server: 102.23.220.66
-  type: http
-- name: 🇺🇸US - udptoos.com
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 2077
-  server: us2.xiaoliyu.us
-  skip-cert-verify: true
-  sni: us2.xiaoliyu.us
-  type: hysteria2
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: '1000'
-  name: '🇩🇪DE - udptoos.com #3'
+  name: '🇩🇪DE - udptoos.com #2'
   obfs: ''
   port: 54177
   protocol: udp
@@ -86,7 +61,7 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: '1000'
-  name: '🇩🇪DE - udptoos.com #4'
+  name: '🇩🇪DE - udptoos.com #3'
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -94,61 +69,6 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸US - udptoos.com #2'
-  network: ws
-  port: '443'
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  ws-opts:
-    headers:
-      Host: c12.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦CA - udptoos.com
-  network: ws
-  password: humanity
-  port: '443'
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /assignment
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇺🇸US - udptoos.com #3'
-  network: ws
-  port: '443'
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  ws-opts:
-    headers:
-      Host: c12.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🇮🇷IR - udptoos.com
@@ -165,7 +85,37 @@ proxies:
   uuid: d65a82af-a403-405e-8b7b-27a68b830511
   xudp: true
 - client-fingerprint: chrome
+  name: 🇨🇦CA - udptoos.com
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.net
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: '🇨🇦CA - udptoos.com #2'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 188.114.97.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /assignment
+- client-fingerprint: chrome
+  name: '🇨🇦CA - udptoos.com #3'
   network: ws
   password: humanity
   port: '443'
@@ -176,18 +126,6 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: '27102'
-  server: jp1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: jp1.xiaoliyu.us
-  type: hysteria2
-  up: ''

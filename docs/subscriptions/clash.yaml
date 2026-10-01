@@ -1,41 +1,46 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇨🇱CL - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
-    short-id: 2c2d919f5183d0b7
-  server: 34.176.187.219
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇮🇹IT - udptoos.com
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: -Tb9KKp870JxcZ3Ka7Rx5ez3QBYryX4e8_jdyNZu2wE
-    short-id: ed278463058a6dc9
-  server: 34.154.18.129
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fffe33b6-5735-4a71-adb1-1c154def9024
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU - udptoos.com
-  obfs: ''
-  obfs-password: ''
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: '22443'
-  server: 91.240.86.70
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇺🇸US - udptoos.com
+  password: dd176c44-fad2-467d-a44c-7837afe5c7b0
+  port: 34568
+  reduce-rtt: false
+  request-timeout: 0
+  server: 45.205.27.78
   skip-cert-verify: true
-  sni: 91.240.86.70
-  type: hysteria2
-  up: ''
+  sni: localhost
+  type: tuic
+  udp-relay-mode: native
+  uuid: dd176c44-fad2-467d-a44c-7837afe5c7b0
+- name: 🇯🇵JP - udptoos.com
+  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
+  port: 40054
+  server: jp4.catzl.top
+  type: anytls
+  udp: true
+- name: 🇩🇪DE - udptoos.com
+  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
+  port: 40063
+  server: de3.catzl.top
+  type: anytls
+  udp: true
+- name: '🇺🇸US - udptoos.com #2'
+  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
+  port: 40022
+  server: us2.catzl.top
+  type: anytls
+  udp: true
+- name: 🇹🇼TW - udptoos.com
+  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
+  port: 40071
+  server: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: '🇯🇵JP - udptoos.com #2'
+  password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
+  port: 40055
+  server: jp5.catzl.top
+  type: anytls
+  udp: true

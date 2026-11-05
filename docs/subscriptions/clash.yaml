@@ -1,57 +1,11 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT - udptoos.com
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.27
-  type: ss
+- fingerprint: ''
+  name: 🌐ZZ - udptoos.com
+  password: 0324fbc29561
+  port: '443'
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.54
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #7'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹IT - udptoos.com #8'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.81
-  type: ss
-  udp: true
+  username: 0324fbc29561

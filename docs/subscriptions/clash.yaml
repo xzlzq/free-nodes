@@ -64,22 +64,13 @@ proxies:
   type: http
   udp: true
 - name: '🇳🇱NL - udptoos.com #2'
-  password: 'null'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: '🇳🇱NL - udptoos.com #3'
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '🇳🇱NL - udptoos.com #4'
+- name: '🇳🇱NL - udptoos.com #3'
   password: 'null'
   port: 9002
   server: 84.17.47.147
@@ -88,6 +79,14 @@ proxies:
   type: http
   udp: true
   username: 'null'
+- name: '🇳🇱NL - udptoos.com #4'
+  password: None
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '🇳🇱NL - udptoos.com #5'
   password: None
   port: 9002
@@ -97,24 +96,23 @@ proxies:
   type: http
   udp: true
 - name: '🇳🇱NL - udptoos.com #6'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '🇳🇱NL - udptoos.com #7'
   port: 9002
   server: 84.17.47.124
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇴RO - udptoos.com
-  password: None
-  port: 9002
-  server: 193.176.84.24
+- name: 🇺🇸US - udptoos.com
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇨🇦CA - udptoos.com
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http

@@ -1,57 +1,76 @@
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE - udptoos.com
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: '443'
-  server: 47.254.128.109
-  type: ss
-  udp: true
-- name: 🇹🇭TH - udptoos.com
-  password: mpbK00Pl
-  port: '42000'
-  server: 192.204.15.192
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪DE - udptoos.com #2'
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: '443'
-  server: 47.254.167.157
-  type: ss
-  udp: true
-- name: '🇹🇭TH - udptoos.com #2'
-  password: zdnivBaI
-  port: '62000'
-  server: 109.66.136.234
-  skip-cert-verify: true
-  type: socks5
-  username: r3ZzP8WW
-- name: 🇧🇷BR - udptoos.com
-  password: 0mvrt5jb
-  port: '62000'
-  server: 191.7.129.133
-  skip-cert-verify: true
-  type: socks5
-  username: uwrgfkwg
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 🇫🇷FR - udptoos.com
+- down: ''
+  fingerprint: ''
+  name: 🇦🇪AE - udptoos.com
   obfs: ''
-  port: '36699'
-  protocol: ''
-  server: 163.172.117.163
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: '13337'
+  server: 128.254.186.163
+  skip-cert-verify: false
+  sni: mother-earth.fyi
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '🇦🇪AE - udptoos.com #2'
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: '13337'
+  server: uk-tube-01.stre4m.net
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: '11'
-- client-fingerprint: chrome
-  encryption: none
+  sni: mother-earth.fyi
+  type: hysteria2
+  up: ''
+- name: 🇰🇷KR - udptoos.com
+  password: ''
+  port: '1080'
+  server: 59.11.209.162
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- down: ''
+  fingerprint: ''
+  name: '🇦🇪AE - udptoos.com #3'
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: '13337'
+  server: uk-tube-01.stre4m.net
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '🇦🇪AE - udptoos.com #4'
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: '13337'
+  server: uk-tube-01.stre4m.net
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: mobile.api.Event
   name: 🇷🇺RU - udptoos.com
+  network: grpc
+  port: '443'
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: '🇷🇺RU - udptoos.com #2'
   network: grpc
   port: '443'
   server: 201.24.116.192
@@ -61,44 +80,3 @@ proxies:
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   xudp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '20'
-  name: 🇺🇸US - udptoos.com
-  obfs: ''
-  port: '20022'
-  protocol: ''
-  server: 137.175.82.43
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: '20'
-- name: 🇻🇳VN - udptoos.com
-  password: jHsK2gqs
-  port: '62000'
-  server: 103.184.113.190
-  skip-cert-verify: true
-  type: socks5
-  username: qT46DZLv
-- name: 🇲🇽MX - udptoos.com
-  password: lcFa8dTH
-  port: '62000'
-  server: 94.194.165.96
-  skip-cert-verify: true
-  type: socks5
-  username: QyVdo5ks
-- name: '🇹🇭TH - udptoos.com #3'
-  password: mpbK00Pl
-  port: '42000'
-  server: 192.204.15.138
-  skip-cert-verify: true
-  type: socks5
-  username: X3s3JteD
-- name: '🇺🇸US - udptoos.com #2'
-  password: 75bPoRcB
-  port: '62000'
-  server: 216.132.114.27
-  skip-cert-verify: true
-  type: socks5
-  username: JzufiJ62
